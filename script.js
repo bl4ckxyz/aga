@@ -13,7 +13,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Função para mostrar um aviso quando a largura da janela for muito pequena
 window.addEventListener('resize', function() {
     if (window.innerWidth < 768) {
-        alert("Você está visualizando o site em um dispositivo móvel. Aproveite a navegação!");
+       // alert("Você está visualizando o site em um dispositivo móvel. Aproveite a navegação!");
     }
 });
 
